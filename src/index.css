@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: ase;
+    src: url(/Aesthetic-Regular.ttf);
+}
+
+@font-face {
+    font-family: cd;
+    src: url(/CaviarDreams.ttf);
+}
+
+html,
+body {
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 1px;
+    background: #000;
+}
+
+
+.map {
+    background: rgb(41, 95, 131);
+}
