@@ -12,17 +12,18 @@
     src: url(/CaviarDreams.ttf);
 }
 
+@font-face {
+    font-family: HS;
+    src: url(/Hirarki\ Signature.ttf);
+}
+
 html,
 body {
     overflow-x: hidden;
+    background: repeating-linear-gradient(to right, rgba(0, 0, 0, .005) 0, rgba(0, 0, 0, .04) 1px, transparent 1px, transparent 60px),
+                repeating-linear-gradient(to bottom, rgba(0, 0, 0, .005) 0, rgba(0, 0, 0, .09) 1px, transparent 1px, transparent 60px);
 }
 
 ::-webkit-scrollbar {
-    width: 1px;
-    background: #000;
-}
-
-
-.map {
-    background: rgb(41, 95, 131);
+    width: 0px
 }
